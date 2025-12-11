@@ -81,7 +81,7 @@ graph TD
     Sanitize --> PPA[PPA Wrapper]
     Pass --> PPA
     
-    PPA -->|Safe Prompt| LLM[Target LLM (Gemini/GPT)]
+    PPA -->|Safe Prompt| LLM["Target LLM (Gemini/GPT)"]
     LLM -->|Response| API
     API -->|Safe Response| User
     
